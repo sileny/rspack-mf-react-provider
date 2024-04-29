@@ -1,0 +1,13 @@
+{
+  "name": "rspack-mf-react-provider",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "pnpm run --filter @rspack-mf-react-provider/* dev",
+    "build": "pnpm run --filter @rspack-mf-react-provider/* build",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

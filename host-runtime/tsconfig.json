@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": false,
+    "target": "es5",
+    "useDefineForClassFields": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
+    "jsxImportSource": "react",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2018",
+      "es2019",
+      "es2020",
+      "es2021",
+      "es2022",
+      "esnext"
+    ],
+    "types": [
+      "@types/node",
+      "./types.d.ts"
+    ],
+    "paths": {
+      "*": ["@mf-types/*"]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
