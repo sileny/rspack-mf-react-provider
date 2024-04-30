@@ -32,7 +32,7 @@
       "./types.d.ts"
     ],
     "paths": {
-      "*": ["@mf-types/*"]
+      "*": ["./@mf-types/*"]
     }
   },
   "include": [
